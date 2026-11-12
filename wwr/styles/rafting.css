@@ -2,7 +2,7 @@
     --primary-color: rgb(0 0 139);
     --secondary-color: rgb(211 211 211);
     --accent1-color: rgb(65 105 225);
-    --accent2-color: rgb(225 204 0);
+    --accent2-color: rgb(225 204 0/ .4);
     --heading-font: "Danegren", "Block Sans", serif;
     --body-font: Arial, sans-serif;
 }
@@ -61,7 +61,7 @@ h1 {
     text-align: center;
     opacity: .7;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--secondary-color);
 }
 
 article {
@@ -69,15 +69,15 @@ article {
     width: 100%;
     padding: 8px;
     text-align: center;
-    background-color: rgb(65 105 225 / .7);
-    color: white;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
 
 }
 
 h2 {
     text-align: center;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--secondary-color);
 }
 
 .hero article {
