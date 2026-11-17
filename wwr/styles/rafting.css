@@ -1,7 +1,7 @@
 :root {
-    --primary-color: rgb(0 0 139);
+    --primary-color: rgb(1, 1, 66);
     --secondary-color: rgb(224, 103, 17);
-    --accent1-color: rgb(65 105 225);
+    --accent1-color: rgb(7, 45, 159);
     --accent2-color: rgba(8, 20, 234, 0.4);
     --heading-font: "Danegren", "Block Sans", serif;
     --body-font: Arial, sans-serif;
