@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <label for="useremail">Email:</label>
+                <input type="email" name="useremail" id="useremail" required>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">Select Quantity</label>
+                <select name="browser" id="browser">
+                    <option value="edge">Edge</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="opera">Opera GX</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet">Do you have a pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="places">List the places you have lived</label>
+                <textarea name="places" id="places" rows="4" placeholder="Stillwater Florida, Newyork Newyork, Tokyo Japan"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
