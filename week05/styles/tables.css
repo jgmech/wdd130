@@ -1,0 +1,19 @@
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
