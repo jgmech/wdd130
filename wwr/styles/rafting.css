@@ -27,7 +27,7 @@ footer {
     background-color: var(--accent1-color);
 }
 
-header{
+header {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,13 +36,13 @@ header{
     max-width: 1500px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
 }
 
-nav a{
+nav a {
     display: block;
     text-decoration: none;
     color: var(--secondary-color);
@@ -69,7 +69,7 @@ article {
     padding: 10px;
 }
 
-footer nav{
+footer nav {
     display: flex;
     justify-content: end;
 }
@@ -105,31 +105,31 @@ article {
 
 }
 
-.history{
+.history {
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
     align-items: center;
     padding: 20px;
 }
 
-.history h2{
+.history h2 {
     grid-column: 1/4;
 }
 
-.history img{
+.history img {
     width: 100%;
     padding-top: 20px;
     height: auto;
     display: block;
 }
 
-.adventure-gallery{
+.adventure-gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
 }
 
-.adventure-gallery img{
+.adventure-gallery img {
     width: 100%;
     height: auto;
     display: block;
@@ -150,4 +150,95 @@ h2 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.hero-about {
+    position: relative;
+    background-color: var(--primary-color);
+    opacity: 1;
+    top: 0%;
+
+}
+
+.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+.quiz-item {
+    border: none;
+}
+
+.box {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.border-box {
+    /* border: 1px solid rgb(0 0 0 / 10%); */
+    /* margin: 1rem; */
+    padding: 1rem;
+}
+
+form {
+    background-color: transparent;
+    width: auto;
+    color: #111;
+
+}
+
+input,
+textarea,
+select,
+button {
+    padding: .1rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+button {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+
+code {
+    display: block;
+    background-color: #000;
+    color: #fff;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.form-row > label {
+    width: 150px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.radio input {
+    width: auto;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.section-reset {
+    background-color: var(--primary-color);
 }
