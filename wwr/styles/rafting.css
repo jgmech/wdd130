@@ -33,7 +33,7 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     border-bottom: 1px solid black;
-    max-width: 1500px;
+
 }
 
 nav {
@@ -178,8 +178,6 @@ h2 {
 }
 
 .border-box {
-    /* border: 1px solid rgb(0 0 0 / 10%); */
-    /* margin: 1rem; */
     padding: 1rem;
 }
 
@@ -239,6 +237,19 @@ code {
     gap: 30px;
 }
 
-.section-reset {
-    background-color: var(--primary-color);
+.center {
+    justify-self: center
+}
+
+.employee-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+}
+
+.employee-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 10px;
 }
